@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+/* header */
+
+.container {
+  max-width: 550px;
+  background-color: cornflowerblue;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.pro-img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid lavender;
+  border-radius: 50%;
+  float: left;
+}
+
+.bio {
+  float: left;
+  padding-left: 8px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: lavender;
+}
+
+p {
+  color: lavender;
+}
+
+.contact {
+  float: right;
+  padding: 7px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: lavender;
+  font-weight: bolder;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+  color: lavenderblush;
+}
+
+.clear-div {
+  clear: both;
+}
+
+hr {
+  border: 2px solid lavender;
+  width: 100%;
+  margin: 12px auto;
+  border-bottom: none;
+}
+
+/* personal */
+
+.content {
+  color: lavender;
+  margin-bottom: 30px;
+}
+
+.left {
+  width: 50%;
+  float: left;
+}
+
+.right {
+  width: 50%;
+  float: left;
+}
+
+.hr-all {
+  border: 1px solid lavenderblush;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
+}
+
+/* skills */
+
+.skills-content {
+  color: lavender;
+  margin-bottom: 30px;
+}
+
+.left {
+  width: 50%;
+  float: left;
+}
+
+.right {
+  width: 50%;
+  float: left;
+}
+
+/* education */
+
+.edu-content {
+  color: lavender;
+  margin-bottom: 30px;
+}
+
+/* footer */
+
+.bttm-cont {
+  background-color: lavender;
+  text-align: center;
+  padding: 10px;
+}
+
+.bttm-cont a {
+  color: cornflowerblue;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.bttm-cont p {
+  color: cornflowerblue;
+
+  margin-top: 20px;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+  body {
+    height: auto;
+    width: 100%;
+  }
+  .bio h1 {
+    font-size: 40px;
+  }
+  .bio h3 {
+    font-size: 26px;
+  }
+  .contact p a {
+    font-size: 26px;
+  }
+  .left h3 {
+    font-size: 32px;
+  }
+  .right p {
+    font-size: 26px;
+  }
+  .right ul li {
+    font-size: 26px;
+  }
+  .right h4,
+  h5 {
+    font-size: 26px;
+  }
+  .bttm-cont a {
+    font-size: 30px;
+  }
+  .bttm-cont p {
+    font-size: 37px;
+  }
+  .size {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  body {
+    height: auto;
+    width: 100%;
+  }
+  .bio h1 {
+    font-size: 40px;
+  }
+  .bio h3 {
+    font-size: 26px;
+  }
+  .contact p a {
+    font-size: 26px;
+  }
+  .left h3 {
+    font-size: 32px;
+  }
+  .right p {
+    font-size: 26px;
+  }
+  .right ul li {
+    font-size: 26px;
+  }
+  .right h4,
+  h5 {
+    font-size: 26px;
+  }
+  .bttm-cont a {
+    font-size: 30px;
+  }
+  .bttm-cont p {
+    font-size: 37px;
+  }
+  .size {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 750px;
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .pro-img {
+    width: 60px;
+    height: 60px;
+    border: 2px solid lavender;
+    border-radius: 50%;
+    float: left;
+  }
+  .bio h1 {
+    font-size: 45px;
+  }
+  .bio h3 {
+    font-size: 31px;
+  }
+  .contact p a {
+    font-size: 31px;
+  }
+  .left h3 {
+    font-size: 37px;
+  }
+  .right p {
+    font-size: 31px;
+  }
+  .right ul li {
+    font-size: 31px;
+  }
+  .right h4,
+  h5 {
+    font-size: 31px;
+  }
+  .bttm-cont a {
+    font-size: 35px;
+  }
+  .bttm-cont p {
+    font-size: 42px;
+  }
+  .size {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 1050px;
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .pro-img {
+    width: 70px;
+    height: 70px;
+    border: 2px solid lavender;
+    border-radius: 50%;
+    float: left;
+  }
+  .bio h1 {
+    font-size: 45px;
+  }
+  .bio h3 {
+    font-size: 31px;
+  }
+  .contact p a {
+    font-size: 31px;
+  }
+  .left h3 {
+    font-size: 37px;
+  }
+  .right p {
+    font-size: 31px;
+  }
+  .right ul li {
+    font-size: 31px;
+  }
+  .right h4,
+  h5 {
+    font-size: 31px;
+  }
+  .bttm-cont a {
+    font-size: 35px;
+  }
+  .bttm-cont p {
+    font-size: 42px;
+  }
+  .size {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1550px;
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .pro-img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid lavender;
+    border-radius: 50%;
+    float: left;
+  }
+}

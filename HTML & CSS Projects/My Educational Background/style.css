@@ -1,0 +1,321 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.clear-div {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.imgg {
+  height: 400px;
+  width: 700px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.desc {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.desc h1 {
+  font-size: 100px;
+}
+
+.desc h2 {
+  font-size: 40px;
+}
+
+.desc p {
+  font-size: 26px;
+  color: rgb(66, 62, 62);
+}
+
+.desc a {
+  text-decoration: none;
+  color: blue;
+  font-size: 20px;
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* header */
+
+header {
+  width: 100%;
+  background-color: #000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 7%;
+}
+
+nav img {
+  width: 150px;
+  height: 70px;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  padding: 10px 14px;
+  position: relative;
+  display: inline-block;
+  list-style: none;
+}
+
+.nav-links ul li a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* table */
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+tr:nth-child(odd) {
+  background-color: #000;
+  color: #fff;
+}
+
+table:hover {
+  background-color: aliceblue;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 32px;
+  margin: 20px;
+}
+
+/* ds */
+
+#ds,
+#bbg,
+#mhc,
+#aiub {
+  width: 100%;
+  display: flex;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 7%;
+  background-color: aliceblue;
+}
+
+#contact input {
+  width: 750px;
+  height: 70px;
+}
+
+#contact ::placeholder {
+  font-size: 28px;
+  text-align: center;
+}
+
+.icons {
+  font-size: 40px;
+  margin-left: 30x;
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+.icons:hover {
+  color: rgb(20, 62, 104);
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 768px) {
+  header {
+    width: 780px;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+  table {
+    width: 780px;
+  }
+  .imgg {
+    width: 750px;
+  }
+  .desc {
+    text-align: center;
+  }
+  #ds,
+  #bbg,
+  #mhc,
+  #aiub {
+    flex-direction: column;
+  }
+  #contact {
+    width: 790px;
+    flex-direction: column;
+  }
+  #contact input,
+  .icons {
+    margin-top: 16px;
+  }
+  footer {
+    width: 790px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  header {
+    width: 900px;
+  }
+
+  nav {
+    flex-direction: row;
+  }
+  table {
+    width: 880px;
+  }
+  .imgg {
+    width: 50%;
+    height: auto;
+  }
+  .desc {
+    width: 50%;
+  }
+  #ds,
+  #bbg,
+  #mhc,
+  #aiub {
+    flex-direction: row;
+  }
+  #contact {
+    width: 900px;
+    flex-direction: column;
+  }
+  #contact input,
+  .icons {
+    margin-top: 16px;
+  }
+  footer {
+    width: 900px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  header {
+    width: 992px;
+  }
+
+  nav {
+    flex-direction: row;
+  }
+  table {
+    width: 972px;
+  }
+  .imgg {
+    width: 50%;
+    height: auto;
+  }
+  .desc {
+    width: 50%;
+  }
+  #ds,
+  #bbg,
+  #mhc,
+  #aiub {
+    flex-direction: row;
+  }
+  #contact {
+    width: 992px;
+    flex-direction: column;
+  }
+  #contact input,
+  .icons {
+    margin-top: 16px;
+  }
+  footer {
+    width: 992px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  header {
+    width: 1200px;
+  }
+
+  nav {
+    flex-direction: row;
+  }
+  table {
+    width: 1180px;
+  }
+  .imgg {
+    width: 50%;
+    height: auto;
+  }
+  .desc {
+    width: 50%;
+  }
+  #ds,
+  #bbg,
+  #mhc,
+  #aiub {
+    flex-direction: row;
+  }
+  #contact {
+    width: 1200px;
+    flex-direction: column;
+  }
+  #contact input,
+  .icons {
+    margin-top: 16px;
+  }
+  footer {
+    width: 1200px;
+  }
+}
